@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import PaginaInicio from './PaginaInicio'
 import Registro from './Registro'
-import '/Registro.css'
+import './Registro.css'
 function App() {
   const [count, setCount] = useState(0)
 

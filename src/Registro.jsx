@@ -4,7 +4,7 @@ function Registro() {
   return (
     <>
      <main>
-      <h1>Registrar</h1>
+      <h1>Registrar  </h1>
       <div>
        <input type="text" placeholder='Nombre'/>
        <input type="email" placeholder='Correo'/>
