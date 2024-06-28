@@ -1,0 +1,23 @@
+.photo {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url(./Images/fragrance-1991531_1280.jpg);
+}
+
+.Cuadro-Pag-Ini{
+  border: 2px solid rgb(10, 10, 10);
+  padding: 30px;
+}
+.Title{
+  color: rgb(6, 6, 83);
+}
+.Botones{
+  box-shadow: 1px 1px 30px red;
+}
+.Space{
+  display: flex;
+  justify-content:space-evenly;
+}
