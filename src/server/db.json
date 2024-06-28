@@ -1,6 +1,23 @@
 {
   "users": [
-    { "id": 1, "name": "John Doe", "email": "john@example.com" },
-    { "id": 2, "name": "Jane Smith", "email": "jane@example.com" }
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john@example.com"
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Colonia",
+      "marca": "Carolina Herrera",
+      "precio": 60000,
+      "cantidad en ml": 100
+    },
+    {
+      "id": "e0eb",
+      "nombre": "CASD",
+      "marca": "DASDA",
+      "precio": "DASD"
+    }
   ]
 }
