@@ -12,7 +12,7 @@ function PaginaInicio() {
       <button className='Botones'onClick={()=>{navegar("/Registro")}}>Registrarse</button>
       <button className='Botones'>Iniciar sesion</button>
       </div>
-      </div>
+      </div> 
 
  </main>
     </>

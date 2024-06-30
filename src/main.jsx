@@ -6,6 +6,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import PaginaInicio from './PaginaInicio.jsx'
 import Registro from './Registro.jsx'
 import PaginaPrincipal from './PaginaPrincipal.jsx'
+import Contacto from './BarraNavBar/Contacto'
+import QuienesSomos from './BarraNavBar/QuienesSomos'
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,14 @@ const router = createBrowserRouter([
   {
     path: "/InicioSesi",
     element: <PaginaPrincipal/>
+  },
+  {
+    path: "/QuienesSomos",
+    element: <QuienesSomos/>
+  },
+  {
+    path: "/Contacto",
+    element: <Contacto/>
   },
 ])
 

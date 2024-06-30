@@ -2,9 +2,12 @@ import React from 'react'
 
 function PaginaPrincipal() {
   return (
-    <div>
+    <>
+     <nav>
       
-    </div>
+     </nav>
+
+    </>
   )
 }
 
