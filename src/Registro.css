@@ -1,11 +1,6 @@
 .fondo{
-display: flex;
-align-items: center;
-justify-content: center;
-display: grid;
-    background-image: url(/src/Images/Captura\ de\ pantalla_26-6-2024_224519_turbologo.com.jpeg);
-}
-.centrar-login{
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(src\Images\fondo.jpeg);
     
 }

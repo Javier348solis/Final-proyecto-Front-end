@@ -16,7 +16,6 @@ function Registro() {
   return (
     <>
      <main className='fondo'>
-      
       <div>
        <div className='centrar-login'>
        <h1>Registrar</h1>

@@ -28,9 +28,17 @@ const router = createBrowserRouter([
     element: <QuienesSomos/>
   },
   {
+    path: "/home",
+    element: <PaginaPrincipal/>
+  },
+  {
     path: "/Contacto",
     element: <Contacto/>
   },
+  {
+    path: "/QuienesSomos",
+    element: <QuienesSomos/>
+  }
 ])
 
 

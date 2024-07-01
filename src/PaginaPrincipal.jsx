@@ -1,12 +1,13 @@
 import React from 'react'
+import CarouselC from './components/CarouselC'
+import NavBar from './components/NavBar'
 
 function PaginaPrincipal() {
   return (
     <>
-     <nav>
-      <p>hola</p>
-     </nav>
-
+    <NavBar/>
+    <br />
+    <CarouselC/>
     </>
   )
 }
