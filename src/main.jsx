@@ -8,6 +8,7 @@ import Registro from './Registro.jsx'
 import PaginaPrincipal from './PaginaPrincipal.jsx'
 import Contacto from './BarraNavBar/Contacto'
 import QuienesSomos from './BarraNavBar/QuienesSomos'
+import InicioSesi from './InicioSesi.jsx'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/Registro",
     element: <Registro/>
+  },
+  {
+    path: "/InicioSesi",
+    element: <PaginaInicio/>
   },
   {
     path: "/InicioSesi",

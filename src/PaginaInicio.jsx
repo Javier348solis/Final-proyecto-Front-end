@@ -10,7 +10,7 @@ function PaginaInicio() {
       <h1 className='Title'>Bienvenido a la pagina de perfumes mas grande de Costa Rica</h1>
       <div className='Space'>
       <button className='Botones'onClick={()=>{navegar("/Registro")}}>Registrarse</button>
-      <button className='Botones'>Iniciar sesion</button>
+      <button className='Botones'onClick={()=>{navegar("/InicioSesi")}}>Iniciar sesion</button>
       </div>
       </div> 
 
