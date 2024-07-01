@@ -21,11 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/InicioSesi",
-    element: <PaginaInicio/>
-  },
-  {
-    path: "/InicioSesi",
-    element: <PaginaPrincipal/>
+    element: <InicioSesi/>
   },
   {
     path: "/QuienesSomos",

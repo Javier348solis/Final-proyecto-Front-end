@@ -4,7 +4,7 @@ function PaginaPrincipal() {
   return (
     <>
      <nav>
-      
+      <p>hola</p>
      </nav>
 
     </>
