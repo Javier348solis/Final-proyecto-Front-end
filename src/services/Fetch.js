@@ -1,9 +1,9 @@
 //Get
 const apiUrl = "http://localhost:3001/"
-const getData = async (endpoint,id="") => {
+const getData = async (endpoint) => {
     try {
    
-      const response = await fetch(apiUrl+endpoint+"/"+id);
+      const response = await fetch(apiUrl+endpoint);
       const data = await response.json();
       return data;
     } catch (error) {
@@ -21,7 +21,7 @@ const guardarUser = async (obj,endpoint) => {
             },
             body: JSON.stringify(obj)
         })
-        const data = response.json()
+        const data = await response.json()
         console.log(data);
         return data
     } catch (error) {

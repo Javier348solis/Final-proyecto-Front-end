@@ -99,29 +99,8 @@ const CarouselC=()=>{
           <h3>Tom Ford Costa Azzura 100ml. ₡170.000</h3>
           <p>Todo el verano italiano en un frasco de perfume, notas acuaticas se mezclan don notas verdes y frutales.</p>
         </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={5000}>
-        <ImgC src={"src/Images/Dolce.jpg"} text="" />
-        <Carousel.Caption>
-          <h3>l'imperatrice D&G 100ml. ₡70.000</h3>
-          <p>
-          Un perfume dulce y elegante para las damas.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={5000}>
-        <ImgC src={"src/Images/Yves.jpg"} text="" />
-        <Carousel.Caption>
-          <h3>Libre Yves Saint Laurent Parfum Women 100ml. ₡70.000</h3>
-          <p>Una fragancia dulce y poderosa para momentos especiales.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item interval={5000}>
-        <ImgC src={"src/Images/Azzaro.jpg"} text="" />
-        <Carousel.Caption>
-          <h3>Azzaro Wanted EDT 100ml. ₡50.000</h3>
-          <p>Citrica y amaderada, ideal para cualquier tiempo o ocasion.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
+        </Carousel.Item>
+
       
     </Carousel>
     </div>

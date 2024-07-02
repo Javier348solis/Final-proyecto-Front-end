@@ -4,6 +4,24 @@
       "id": "1",
       "name": "John Doe",
       "email": "john@example.com"
+    },
+    {
+      "id": "f0ea",
+      "name": "Javier",
+      "email": "javier@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "c2fe",
+      "name": "da",
+      "email": "ddadad",
+      "password": "addda"
+    },
+    {
+      "id": "120d",
+      "name": "da",
+      "email": "dadada",
+      "password": "dadasd"
     }
   ],
   "productos": [
@@ -11,7 +29,8 @@
       "nombre": "Colonia",
       "marca": "Carolina Herrera",
       "precio": 60000,
-      "cantidad en ml": 100
+      "cantidad en ml": 100,
+      "id": "9fd4"
     },
     {
       "id": "e0eb",
