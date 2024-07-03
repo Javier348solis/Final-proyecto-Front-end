@@ -38,7 +38,7 @@ const validaUsuario = async() => {
        <input  onChange={(e)=>{setUserName(e.target.value)}} type="text" placeholder='Nombre'/>
        <input onChange={(e)=>{setEmail(e.target.value)}}  type="email" placeholder='Correo'/>
        <input  onChange={(e)=>{setPassword(e.target.value)}} type="password" placeholder='Contraseña'/>
-       <button onClick={validaUsuario}>Registrarse</button>
+       <button onClick={validaUsuario}>Registrarse</button> 
        </div>
       </div>
       </main> 
