@@ -2,9 +2,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import ImgC from './ImgC';
 const CarouselC=()=>{
     return(
-        <>
+        <div className='fondo3'>
   <h3>Promociones</h3>
-    <div className='Navbar-space'>
+    <div className='Navbar-space '>
     <Carousel>
       <Carousel.Item interval={5000}>
         <ImgC src={"src/Images/chmen212.jpg"} text="₡40.000" />
@@ -104,7 +104,7 @@ const CarouselC=()=>{
       
     </Carousel>
     </div>
-        </>
+        </div>
     )
 }
 export default CarouselC

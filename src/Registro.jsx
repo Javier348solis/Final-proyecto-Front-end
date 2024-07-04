@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react'
+import React, { useEffect,useRef,useState } from 'react'
 import getData, { guardarUser } from './services/Fetch'
 import { useNavigate } from 'react-router-dom'
 function Registro() {
@@ -7,7 +7,12 @@ function Registro() {
   const [password,setPassword] = useState()
   const [datos, setDatos] = useState([])
   const navegar = useNavigate()
-  
+
+  const usernameRef = useRef()
+  const emailRef = useRef()
+  const passwordRef = useRef()
+
+
   useEffect(() => {
     const getUsers = async () => {
         const dataUsuarios = await getData("users")
@@ -15,7 +20,17 @@ function Registro() {
     }
     getUsers()
 }, []);
+
+
+
 const validaUsuario = async() => {
+    const usernameTrim = usernameRef.current.value
+    const emailTrim = emailRef.current.value
+    const passwordTrim = passwordRef.current.value
+    if(!usernameTrim || !emailTrim || !passwordTrim){
+      alert("TOY VACIOOOO")
+      return
+    }else{
     const user = datos.find((usuario) => usuario.email === email);
     if (user) {
       alert("INCORRECTO")
@@ -27,6 +42,7 @@ const validaUsuario = async() => {
       },"users")
       navegar("/InicioSesi")
     }
+  }
 }
   
   return (
@@ -35,9 +51,9 @@ const validaUsuario = async() => {
       <div>
        <div className='centrar-login'>
        <h1>Registrar</h1>
-       <input  onChange={(e)=>{setUserName(e.target.value)}} type="text" placeholder='Nombre'/>
-       <input onChange={(e)=>{setEmail(e.target.value)}}  type="email" placeholder='Correo'/>
-       <input  onChange={(e)=>{setPassword(e.target.value)}} type="password" placeholder='Contraseña'/>
+       <input ref={usernameRef}  onChange={(e)=>{setUserName(e.target.value)}} type="text" placeholder='Nombre'/>
+       <input ref={emailRef} onChange={(e)=>{setEmail(e.target.value)}}  type="email" placeholder='Correo'/>
+       <input ref={passwordRef}  onChange={(e)=>{setPassword(e.target.value)}} type="password" placeholder='Contraseña'/>
        <button onClick={validaUsuario}>Registrarse</button> 
        </div>
       </div>

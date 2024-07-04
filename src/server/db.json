@@ -22,6 +22,36 @@
       "name": "da",
       "email": "dadada",
       "password": "dadasd"
+    },
+    {
+      "id": "b9dc",
+      "name": "Jose Miguel",
+      "email": "antoniojose@gmail.com",
+      "password": "6969"
+    },
+    {
+      "id": "357b",
+      "name": "ergherg",
+      "email": "rgerh",
+      "password": "1234"
+    },
+    {
+      "id": "2fe8",
+      "name": "Javier ",
+      "email": "fregerg@.com",
+      "password": "1234"
+    },
+    {
+      "id": "7179",
+      "name": "gerhrt",
+      "email": "ryrttjrdt1234",
+      "password": "12345"
+    },
+    {
+      "id": "c8f3",
+      "name": "erherber",
+      "email": "ergrth@.com",
+      "password": "1234"
     }
   ],
   "productos": [
