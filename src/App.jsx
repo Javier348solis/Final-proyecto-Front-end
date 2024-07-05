@@ -5,6 +5,7 @@ import './App.css'
 import PaginaInicio from './Paginas/PaginaInicio'
 import Registro from './Paginas/Registro'
 import InicioSesi from './Paginas/InicioSesi'
+import QuienesSomos from './components/QuienesSomos'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,7 +14,7 @@ function App() {
     <>
    <PaginaInicio/>
    <InicioSesi/>
-   
+   <QuienesSomos/>
     </>
   )
 }

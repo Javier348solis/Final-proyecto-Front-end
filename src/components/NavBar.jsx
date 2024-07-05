@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 function NavBar() {
   const ruta = useNavigate()
   function PrincipalPage() {
-    ruta('/home')
+    ruta('/QuienesSomos')
   }
   function contact() {
     ruta('/Contacto')

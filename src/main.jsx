@@ -7,8 +7,9 @@ import PaginaInicio from './Paginas/PaginaInicio.jsx'
 import Registro from './Paginas/Registro.jsx'
 import PaginaPrincipal from './Paginas/PaginaPrincipal.jsx'
 import Contacto from './BarraNavBar/Contacto'
-import QuienesSomos from './BarraNavBar/QuienesSomos'
+import QuienesSomos from './components/QuienesSomos.jsx'
 import InicioSesi from './Paginas/InicioSesi.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const router = createBrowserRouter([
   },
   {
     path: "/QuienesSomos",
+    element: <QuienesSomos/>
+  },
+  {
+    path: "/PaginaPrincipal",
     element: <QuienesSomos/>
   }
 ])

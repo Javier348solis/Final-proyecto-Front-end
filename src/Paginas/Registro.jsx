@@ -22,7 +22,7 @@ function Registro() {
 }, []);
 
 
-
+//Validamos los espacios vacios en cada uno de los input, luego nos dara una alerta si los input estan vacios al darle click.
 const validaUsuario = async() => {
     const usernameTrim = usernameRef.current.value
     const emailTrim = emailRef.current.value
@@ -47,6 +47,7 @@ const validaUsuario = async() => {
   
   return (
     <>
+    {/* Se valida el valor de cada input con el target.value */}
      <main className='fondo'>
       <div>
        <div className='centrar-login'>
