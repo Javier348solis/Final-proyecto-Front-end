@@ -1,5 +1,5 @@
 import React, { useEffect,useRef,useState } from 'react'
-import getData, { guardarUser } from './services/Fetch'
+import getData, { guardarUser } from '../services/Fetch'
 import { useNavigate } from 'react-router-dom'
 function Registro() {
   const [userName,setUserName] = useState()

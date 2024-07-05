@@ -2,56 +2,15 @@
   "users": [
     {
       "id": "1",
-      "name": "John Doe",
-      "email": "john@example.com"
+      "name": "admin",
+      "email": "admin",
+      "password": "admin"
     },
     {
-      "id": "f0ea",
-      "name": "Javier",
-      "email": "javier@gmail.com",
-      "password": "1234"
-    },
-    {
-      "id": "c2fe",
-      "name": "da",
-      "email": "ddadad",
-      "password": "addda"
-    },
-    {
-      "id": "120d",
-      "name": "da",
-      "email": "dadada",
-      "password": "dadasd"
-    },
-    {
-      "id": "b9dc",
-      "name": "Jose Miguel",
-      "email": "antoniojose@gmail.com",
-      "password": "6969"
-    },
-    {
-      "id": "357b",
-      "name": "ergherg",
-      "email": "rgerh",
-      "password": "1234"
-    },
-    {
-      "id": "2fe8",
-      "name": "Javier ",
-      "email": "fregerg@.com",
-      "password": "1234"
-    },
-    {
-      "id": "7179",
-      "name": "gerhrt",
-      "email": "ryrttjrdt1234",
-      "password": "12345"
-    },
-    {
-      "id": "c8f3",
-      "name": "erherber",
-      "email": "ergrth@.com",
-      "password": "1234"
+      "id": "25df",
+      "name": "Pepe",
+      "email": "antonio@gmail.com",
+      "password": "pepin"
     }
   ],
   "productos": [

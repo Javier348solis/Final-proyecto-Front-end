@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import PaginaInicio from './PaginaInicio.jsx'
-import Registro from './Registro.jsx'
-import PaginaPrincipal from './PaginaPrincipal.jsx'
+import PaginaInicio from './Paginas/PaginaInicio.jsx'
+import Registro from './Paginas/Registro.jsx'
+import PaginaPrincipal from './Paginas/PaginaPrincipal.jsx'
 import Contacto from './BarraNavBar/Contacto'
 import QuienesSomos from './BarraNavBar/QuienesSomos'
-import InicioSesi from './InicioSesi.jsx'
+import InicioSesi from './Paginas/InicioSesi.jsx'
 
 const router = createBrowserRouter([
   {

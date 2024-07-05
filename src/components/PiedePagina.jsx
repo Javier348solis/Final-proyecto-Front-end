@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/PiedePagina.css'
+// import '../styles/PiedePagina.css'
 
 function PiedePagina() {
   return (

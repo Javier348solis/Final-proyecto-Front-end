@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import getData from './services/Fetch'
+import getData from '../services/Fetch'
 
 function InicioSesi() {
   const [lista, setLista] = useState([])
