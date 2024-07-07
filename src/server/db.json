@@ -1,16 +1,28 @@
 {
   "users": [
     {
-      "id": "1",
+      "id": "0",
       "name": "admin",
-      "email": "admin",
-      "password": "admin"
+      "email": "adminperfume@gmail.com",
+      "password": "administrator2000"
     },
     {
       "id": "25df",
       "name": "Pepe",
       "email": "antonio@gmail.com",
       "password": "pepin"
+    },
+    {
+      "id": "f2a4",
+      "name": "Javier Solis",
+      "email": "javier12@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "dcec",
+      "name": "javuier",
+      "email": "yufrts@.com",
+      "password": "1234"
     }
   ],
   "productos": [
