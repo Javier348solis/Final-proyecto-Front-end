@@ -30,7 +30,7 @@ const guardarUser = async (obj,endpoint) => {
 export {guardarUser}
 
 //Put
-export async function actualizaDatos(id, obj) {
+export async function actualizaDatos(endpoint,id, obj) {
   try {
       const response = await fetch(`http://localhost:3001/${endpoint}` + "/" + id, {
           method: "PUT",
