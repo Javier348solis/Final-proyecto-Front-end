@@ -29,6 +29,34 @@ const guardarUser = async (obj,endpoint) => {
 }
 export {guardarUser}
 
+//Put
+export async function actualizaDatos(id, obj) {
+  try {
+      const response = await fetch(`http://localhost:3001/${endpoint}` + "/" + id, {
+          method: "PUT",
+          headers: {
+              "Content-type": "application/json"
+          },
+          body: JSON.stringify(obj)
+      })
+      let datos = await response.json()
+      console.log(datos);
+  } catch (error) {
+      console.error(error);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
