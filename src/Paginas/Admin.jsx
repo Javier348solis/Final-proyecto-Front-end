@@ -13,14 +13,20 @@ const Admin = () => {
       marca: marcaProducto,
       precio: precioProducto,
       cantidadml: cantidadMililitros,
-    }
-    await guardarUser(colonia,"productos")
+    };
+    await guardarUser(colonia, "productos")
   }
-  const admin = localStorage.getItem("admin")
   return (
     <>
       <div className="d-flex flex-column">
-        <InputPaginas aggProducto={aggProducto} />
+        <div className="Input-file">
+          <input type="file" placeholder="Escoger archivo"  />
+          <input type="text" placeholder="Nombre del producto"  onChange={(e)=>setNombreProducto(e.target.value)}/>
+          <input type="text" placeholder="Marca del producto" onChange={(e)=>setMarcaProducto(e.target.value)} />
+          <input type="text" placeholder="Precio" onChange={(e)=>setPrecioProducto(e.target.value)} />
+          <input type="number" placeholder="Cantidad en mililitros" onChange={(e)=>setPrecioMililitros(e.target.value)} />
+          <button onClick={aggProducto}>Agregar Producto</button>
+        </div>
       </div>
     </>
   );
