@@ -3,7 +3,7 @@ import CardFragance from '../components/CardFragance'
 import InputPaginas from '../components/InputPaginas'
 import ListaCard from '../components/ListaCard'
 import getData from '../services/Fetch'
- 
+import NavBar from '../components/NavBar'
 function PaginaHombre() {
   const [data,setData]=useState([])
 
@@ -16,6 +16,7 @@ function PaginaHombre() {
   },[])
   return (
     <>
+    <NavBar/>
     <div className='Fotos-Hombre' >
       <CardFragance src={"src/Images/Azzaro.jpg"} titulo={"Azzaro wanted EDT"} precio={"₡55.000"}/>
       <CardFragance src={"src/Images/profondo.jpg"} titulo={"ADG Profondo Parfum"} precio={"₡80.000"}/>

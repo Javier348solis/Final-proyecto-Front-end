@@ -6,10 +6,11 @@ const ListaCard=({colonias})=>{
         {colonias.map(iterar=>(
             <CardFragance
             key={iterar.id}
+            marca={iterar.marca}
             src={iterar.img}
             precio={iterar.precio}
-            titulo={iterar.nombre}
-            cantidadMl={iterar.cantidadml}
+            nombre={iterar.nombre}
+            cantidadml={iterar.cantidadml}
             />
         ))}
         </>

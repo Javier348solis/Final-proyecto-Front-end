@@ -15,9 +15,9 @@ function EditarPerfumes() {
         nombre: nombreProducto,
         marca: marcaProducto,
         precio: precioProducto,
-        cantidad: cantidadMililitros,
+        cantidadml: cantidadMililitros,
     }
-      await actualizaDatos(id)
+      await actualizaDatos(id,productosEditar)
     }
   return (
     <>
