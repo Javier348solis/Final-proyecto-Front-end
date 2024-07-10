@@ -19,6 +19,12 @@ function InicioSesi() {
   },[])
   const validarInputs = ()=>{
     const user = lista.find(users => users.email === correo && users.password === password)
+    const admin = lista.find(users => "adminperfume@gmail.com" === correo && "administrator2000" === password)
+    if(admin){
+      localStorage.setItem("admin",true)
+      navigate("/admin")
+      return
+    }
     if (user) {
       localStorage.setItem("idUsaurio", user.id)
       navigate("/home")

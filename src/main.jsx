@@ -10,6 +10,7 @@ import Contacto from './BarraNavBar/Contacto'
 import QuienesSomos from './components/QuienesSomos.jsx'
 import InicioSesi from './Paginas/InicioSesi.jsx'
 import PaginaHombre from './Paginas/PaginaHombre.jsx'
+import Admin from './Paginas/Admin.jsx'
 
 
 const router = createBrowserRouter([
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
   {
     path: "/PaginaHombres",
     element: <PaginaHombre/>
+  }, 
+  {
+    path: "/admin",
+    element: <Admin/>
   },
 ])
 

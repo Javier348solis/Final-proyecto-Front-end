@@ -42,7 +42,7 @@
       "nombre": "Colonia",
       "marca": "Carolina Herrera",
       "precio": 60000,
-      "cantidad en ml": 100,
+      "cantidadml": 100,
       "id": "9fd4"
     },
     {
@@ -50,6 +50,13 @@
       "nombre": "CASD",
       "marca": "DASDA",
       "precio": "DASD"
+    },
+    {
+      "id": "5f43",
+      "nombre": "",
+      "marca": "",
+      "precio": 0,
+      "cantidadml": 0
     }
   ]
 }
