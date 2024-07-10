@@ -1,7 +1,8 @@
 import React from 'react'
 import CardFragance from '../components/CardFragance'
 import InputPaginas from '../components/InputPaginas'
-
+import ListaCard from '../components/ListaCard'
+ 
 function PaginaHombre() {
   return (
     <>
@@ -11,6 +12,7 @@ function PaginaHombre() {
       <CardFragance src={"src/Images/Invictus.jpg"} titulo={"Invictus Parfum PR"} precio={"₡65.000"}/>
       <CardFragance src={"src/Images/One.jpg"} titulo={"One Million PR EDT"} precio={"₡44.000"}/>
      
+     <ListaCard/>
     </div>
       
     </>
