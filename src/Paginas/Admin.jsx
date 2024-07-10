@@ -6,6 +6,7 @@ const Admin = () => {
   const [marcaProducto, setMarcaProducto] = useState("");
   const [precioProducto, setPrecioProducto] = useState(0);
   const [cantidadMililitros, setPrecioMililitros] = useState(0);
+  const [categoria, setCategoria] = useState();
   const [img,setImg]=useState()
   
   const aggProducto = async () => {
@@ -14,7 +15,8 @@ const Admin = () => {
       marca: marcaProducto,
       precio: precioProducto,
       cantidadml: cantidadMililitros,
-      img:img
+      img:img,
+      categoria: categoria
     }
     await guardarUser(colonia, "productos")
   }
@@ -37,6 +39,11 @@ const Admin = () => {
           <input type="text" placeholder="Marca del producto" onChange={(e)=>setMarcaProducto(e.target.value)} />
           <input type="text" placeholder="Precio" onChange={(e)=>setPrecioProducto(e.target.value)} />
           <input type="number" placeholder="Cantidad en mililitros" onChange={(e)=>setPrecioMililitros(e.target.value)} />
+          <select  onChange={(e)=>setCategoria(e.target.value)} className="border border-danger">
+            <option selected disabled value="">Seleccione</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Mujer">Mujer 💦💦👀</option>
+          </select>
           <button onClick={aggProducto}>Agregar Producto</button>
         </div>
       </div>
