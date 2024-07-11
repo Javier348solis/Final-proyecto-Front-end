@@ -5,7 +5,7 @@
     justify-content: center;
     height: 100vh; /* Altura total del viewport */
     background-image: url(src/Images/fondo.jpeg);
-    color: white; /* Texto blanco */
+    color: white; 
   }
   
   .Log-in h1 {
@@ -15,23 +15,23 @@
   
   .Log-in input {
     width: 30%;
-    margin-bottom: 10px; /* Espacio entre cada input */
+    margin-bottom: 10px; 
     padding: 10px;
-    border: 1px solid white; /* Borde blanco */
-    background-color: white; /* Fondo blanco */
-    color: black; /* Texto negro */
-    border-radius: 4px; /* Bordes redondeados */
+    border: 1px solid white; 
+    background-color: white; 
+    color: black; 
+    border-radius: 4px; 
   }
   
   .Log-in button {
     width: 30%;
-    margin-top: 10px; /* Espacio entre el último input y el botón */
+    margin-top: 10px; 
     padding: 12px;
-    background-color: #007bff; /* Fondo azul */
-    color: white; /* Texto blanco */
+    background-color: #007bff; 
+    color: white;
     border: none;
     cursor: pointer;
-    border-radius: 4px; /* Bordes redondeados */
+    border-radius: 4px; 
   }
   
   .Log-in button:hover {

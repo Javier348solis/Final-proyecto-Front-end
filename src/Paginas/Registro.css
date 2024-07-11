@@ -1,12 +1,12 @@
 .centrar-login {
-    max-width: 300px; /* Ancho máximo del formulario */
+    max-width: 300px; 
     max-height: 500px;
-    margin: auto; /* Centrar horizontalmente */
+    margin: auto; 
     padding: 20px;
-    border: 2px solid #fffdfd; /* Borde sólido con color gris */
-    border-radius: 5px; /* Bordes redondeados */
-    text-align: center; /* Alinear el contenido al centro */
-    display: flex; /* Usar flexbox para acomodar verticalmente */
+    border: 2px solid #fffdfd; 
+    border-radius: 5px; 
+    text-align: center; 
+    display: flex; 
     flex-direction: column; /* Apilar los elementos verticalmente */
 }
 
@@ -17,24 +17,24 @@
 
 .centrar-login input,
 .centrar-login button {
-    margin-bottom: 10px; /* Espacio entre cada elemento */
-    padding: 10px; /* Relleno interno */
-    border-radius: 3px; /* Bordes redondeados para inputs y botón */
-    border: 2px solid #f6f3f3; /* Borde fino con color gris claro */
-    width: 100%; /* Ancho completo del contenedor */
+    margin-bottom: 10px; 
+    padding: 10px; 
+    border-radius: 3px; 
+    border: 2px solid #f6f3f3; 
+    width: 100%;
     box-sizing: border-box; /* Incluir el padding y border en el ancho total */
 }
 
 .centrar-login button {
-    background-color: #007bff; /* Color de fondo del botón */
-    color: white; /* Color del texto del botón */
-    border: none; /* Sin borde */
-    cursor: pointer; /* Cambiar cursor al pasar por encima */
-    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
 }
 
 .centrar-login button:hover {
-    background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+    background-color: #0056b3; 
 }
 .fondo{
     display: flex;
