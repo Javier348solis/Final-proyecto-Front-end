@@ -85,5 +85,8 @@
   display: grid;
  padding: 10px;
  margin-bottom: 5px;
-
+}
+.Cambio-color-letra{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
 }

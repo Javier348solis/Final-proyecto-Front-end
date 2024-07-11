@@ -38,7 +38,6 @@ function InicioSesi() {
       <input onChange={(e)=> {setCorreo(e.target.value)}} type="text" placeholder='Correo electronico'/>
       <input onChange={(e)=> {setPassword(e.target.value)}} type="password" placeholder='Contraseña'/>
       <button onClick={validarInputs}>Ingresar</button>
-      <a href="">No tienes una cuenta?</a>
     </div>
   )
 }

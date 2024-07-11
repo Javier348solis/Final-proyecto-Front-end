@@ -15,6 +15,9 @@ function NavBar() {
   function Women() {
     ruta('/Mujeres')
   }
+  function Volver() {
+    ruta('/home')
+  }
     return (
     <>
      <nav className='fondo-2'>
@@ -23,8 +26,7 @@ function NavBar() {
         <a className='HowareWe' href="" onClick={contact}>Contacto</a>
         <a className='HowareWe' href="" onClick={Women}>Mujeres</a>
         <a className='HowareWe' href="" onClick={Men}>Hombres</a>
-        <input type="text" placeholder='Buscar Perfume'/>
-        <button className='boton-buscar'>Buscar</button>
+        <button className='boton-volver' onClick={Volver}>Volver</button>
 
      </nav>
 
