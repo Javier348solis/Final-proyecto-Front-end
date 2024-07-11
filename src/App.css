@@ -51,7 +51,74 @@
   background: rgb(4, 4, 41)
 }
 .Fotos-Hombre{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px;
+  gap: 20px;
+}
+@media (max-width: 1110px){
+  .Fotos-Hombre{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+  }
+}
+@media (max-width: 800px){
+  .Fotos-Hombre{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+  }
+}
+@media (max-width: 680px){
+  .Fotos-Hombre{
+    display: grid;
+    grid-template-columns: 200px 200px ;
+  }
+}
+@media (max-width: 667px){
+  .Fotos-Hombre{
+    display: grid;
+    grid-template-columns: 200px ;
+  }
+}
+.Input-file{
   display: flex;
-  flex-wrap: wrap;
-  width: 1400px;
+  justify-content: center;
+  display: grid;
+ padding: 10px;
+ margin-bottom: 5px;
+}
+.Cambio-color-letra{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+.Form-perfumes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.producto-imagen {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 3px;
+}
+
+.text-success, .text-info {
+  margin-bottom: 3px;
+}
+
+.btn-eliminar {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px; /* Ajusta el margen superior del botón si es necesario */
+}
+
+.btn-eliminar:hover {
+  background-color: darkred;
 }

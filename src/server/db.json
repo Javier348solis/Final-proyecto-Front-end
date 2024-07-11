@@ -11,45 +11,7 @@
       "name": "Pepe",
       "email": "antonio@gmail.com",
       "password": "pepin"
-    },
-    {
-      "id": "f2a4",
-      "name": "Javier Solis",
-      "email": "javier12@gmail.com",
-      "password": "1234"
-    },
-    {
-      "id": "dcec",
-      "name": "javuier",
-      "email": "yufrts@.com",
-      "password": "1234"
-    },
-    {
-      "id": "957f",
-      "name": "gbuykdt",
-      "email": "gtd@.com",
-      "password": "1234"
-    },
-    {
-      "id": "b935",
-      "name": "gerergrg",
-      "email": "qernerig@.com",
-      "password": "1234"
     }
   ],
-  "productos": [
-    {
-      "nombre": "Colonia",
-      "marca": "Carolina Herrera",
-      "precio": 60000,
-      "cantidad en ml": 100,
-      "id": "9fd4"
-    },
-    {
-      "id": "e0eb",
-      "nombre": "CASD",
-      "marca": "DASDA",
-      "precio": "DASD"
-    }
-  ]
+  "productos": []
 }

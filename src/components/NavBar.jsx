@@ -9,11 +9,12 @@ function NavBar() {
   function contact() {
     ruta('/Contacto') 
   }
-  function Men() {
+  function Fragance() {
     ruta('/PaginaHombres')
   }
-  function Women() {
-    ruta('/Mujeres')
+ 
+  function Volver() {
+    ruta('/home')
   }
     return (
     <>
@@ -21,10 +22,8 @@ function NavBar() {
         <img src="src/Images/Your paragraph text.gif" alt="" width={150} height={150}/>
         <a className='HowareWe' href="" onClick={PrincipalPage}>Quienes Somos</a>
         <a className='HowareWe' href="" onClick={contact}>Contacto</a>
-        <a className='HowareWe' href="" onClick={Women}>Mujeres</a>
-        <a className='HowareWe' href="" onClick={Men}>Hombres</a>
-        <input type="text" placeholder='Buscar Perfume'/>
-        <button className='boton-buscar'>Buscar</button>
+        <a className='HowareWe' href="" onClick={Fragance}>Perfumes</a>
+        <button className='boton-volver' onClick={Volver}>Volver</button>
 
      </nav>
 
