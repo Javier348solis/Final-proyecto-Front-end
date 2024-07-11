@@ -42,7 +42,7 @@ const Admin = () => {
           <select  onChange={(e)=>setCategoria(e.target.value)} className="border border-danger">
             <option selected disabled value="">Seleccione</option>
             <option value="Hombre">Hombre</option>
-            <option value="Mujer">Mujer 💦💦👀</option>
+            <option value="Mujer">Mujer</option>
           </select>
           <button onClick={aggProducto}>Agregar Producto</button>
         </div>

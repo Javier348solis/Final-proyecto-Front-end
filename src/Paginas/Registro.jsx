@@ -1,6 +1,8 @@
 import React, { useEffect,useRef,useState } from 'react'
 import getData, { guardarUser } from '../services/Fetch'
 import { useNavigate } from 'react-router-dom'
+import Swal from 'sweetalert'
+
 function Registro() {
   const [userName,setUserName] = useState()
   const [email,setEmail] = useState()
