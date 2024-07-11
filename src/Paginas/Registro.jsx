@@ -1,7 +1,8 @@
 import React, { useEffect,useRef,useState } from 'react'
 import getData, { guardarUser } from '../services/Fetch'
 import { useNavigate } from 'react-router-dom'
-
+import "./Registro.css";
+import PiedePagina from '../components/PiedePagina'
 
 function Registro() {
   const [userName,setUserName] = useState()
@@ -59,6 +60,7 @@ const validaUsuario = async() => {
        <input ref={passwordRef}  onChange={(e)=>{setPassword(e.target.value)}} type="password" placeholder='Contraseña'/>
        <button onClick={validaUsuario}>Registrarse</button> 
        </div>
+       <PiedePagina/>
       </div>
       </main> 
     </> 
