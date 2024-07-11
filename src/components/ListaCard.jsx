@@ -1,6 +1,6 @@
 import CardFragance from "./CardFragance"
 
-const ListaCard=({colonias})=>{
+const ListaCard=({colonias, btnEliminar})=>{
     return(
         <>
         {colonias.map(iterar=>(
@@ -11,6 +11,7 @@ const ListaCard=({colonias})=>{
             precio={iterar.precio}
             nombre={iterar.nombre}
             cantidadml={iterar.cantidadml}
+            btnEliminar ={()=>btnEliminar(iterar.id)}
             />
         ))}
         </>

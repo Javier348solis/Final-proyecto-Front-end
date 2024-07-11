@@ -1,9 +1,10 @@
 import React from 'react'
+import NavBar from '../components/NavBar'
 
 const PaginaMujeres = () => {
   return (
     <div>
-      <h1>DAS</h1>
+      <NavBar/>
     </div>
   )
 }

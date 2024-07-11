@@ -45,6 +45,28 @@ export async function actualizaDatos(id, obj) {
       console.error(error);
   }
 }
+//Delete
+async function deleteProduct(id) {
+    try {
+        const response = await fetch(`http://localhost:3001/productos/${id}`, {
+            method: "DELETE",
+            headers: { 'Content-Type': 'application/json', },
+        });
+
+        if (!response.ok) {
+            throw new Error('Error al eliminar el producto');
+        }
+
+        // Puedes manejar la respuesta aquí si necesitas hacer algo después de eliminar
+        // Por ejemplo, actualizar la interfaz después de eliminar el producto
+
+    } catch (error) {
+        console.error('Error al intentar eliminar el producto:', error);
+        throw error; // Puedes lanzar el error nuevamente si deseas manejarlo en otro lugar
+    }
+}
+export { deleteProduct };
+
 
 
 
