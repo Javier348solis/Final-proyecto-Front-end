@@ -5,7 +5,7 @@ const CardFragance = ({ src, nombre, marca, precio, cantidadml, btnEliminar }) =
 
     return (
         <>
-            <div>
+            <div className="Form'perfumes">
                 <img width={"200px"} height={"200"} src={src} alt="" />
                 <h2 className="text-success">{nombre}</h2>
                 <h2 className="text-success">{marca}</h2>

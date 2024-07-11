@@ -5,7 +5,7 @@ const Admin = () => {
   const [nombreProducto, setNombreProducto] = useState("");
   const [marcaProducto, setMarcaProducto] = useState("");
   const [precioProducto, setPrecioProducto] = useState(0);
-  const [cantidadMililitros, setPrecioMililitros] = useState(0);
+  
   const [categoria, setCategoria] = useState();
   const [img,setImg]=useState()
   
@@ -14,7 +14,7 @@ const Admin = () => {
       nombre: nombreProducto,
       marca: marcaProducto,
       precio: precioProducto,
-      cantidadml: cantidadMililitros,
+     
       img:img,
       categoria: categoria
     }
@@ -38,11 +38,10 @@ const Admin = () => {
           <input type="text" placeholder="Nombre del producto"  onChange={(e)=>setNombreProducto(e.target.value)}/>
           <input type="text" placeholder="Marca del producto" onChange={(e)=>setMarcaProducto(e.target.value)} />
           <input type="text" placeholder="Precio" onChange={(e)=>setPrecioProducto(e.target.value)} />
-          <input type="number" placeholder="Cantidad en mililitros" onChange={(e)=>setPrecioMililitros(e.target.value)} />
+          
           <select  onChange={(e)=>setCategoria(e.target.value)} className="border border-danger">
             <option selected disabled value="">Seleccione</option>
-            <option value="Hombre">Hombre</option>
-            <option value="Mujer">Mujer</option>
+            <option value="Hombre">Perfume</option>
           </select>
           <button onClick={aggProducto}>Agregar Producto</button>
         </div>

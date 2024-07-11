@@ -60,7 +60,6 @@ const validaUsuario = async() => {
        <input ref={passwordRef}  onChange={(e)=>{setPassword(e.target.value)}} type="password" placeholder='Contraseña'/>
        <button onClick={validaUsuario}>Registrarse</button> 
        </div>
-       <PiedePagina/>
       </div>
       </main> 
     </> 

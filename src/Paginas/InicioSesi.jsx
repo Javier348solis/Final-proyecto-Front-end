@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import getData from '../services/Fetch'
-import "./InicioSesi"
+import "./InicioSesi.css"
 
 function InicioSesi() {
   const [lista, setLista] = useState([])
@@ -34,11 +34,14 @@ function InicioSesi() {
   }
 
   return (
-    <div>
+    <>
+    <div className='Log-in'>
+      <h1>Log-In</h1>
       <input onChange={(e)=> {setCorreo(e.target.value)}} type="text" placeholder='Correo electronico'/>
       <input onChange={(e)=> {setPassword(e.target.value)}} type="password" placeholder='Contraseña'/>
       <button onClick={validarInputs}>Ingresar</button>
     </div>
+    </>
   )
 }
 

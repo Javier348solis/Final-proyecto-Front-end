@@ -90,3 +90,35 @@
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
 }
+.Form-perfumes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.producto-imagen {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 3px;
+}
+
+.text-success, .text-info {
+  margin-bottom: 3px;
+}
+
+.btn-eliminar {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 10px; /* Ajusta el margen superior del botón si es necesario */
+}
+
+.btn-eliminar:hover {
+  background-color: darkred;
+}

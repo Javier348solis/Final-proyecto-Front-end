@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function PiedePagina() {
   // Función para manejar el clic en las imágenes y redireccionar
   const handleClick = (url) => {
@@ -14,6 +15,7 @@ function PiedePagina() {
           como argumento a la función.
         */}
         <img
+          className="imagen-cliclable"
           onClick={() => handleClick('https://www.facebook.com/')}
           src="src/Images/facebook (1).png"
           alt="Facebook"
@@ -21,6 +23,7 @@ function PiedePagina() {
           height={50}
         />
         <img
+          className="imagen-cliclable"
           onClick={() => handleClick('https://www.instagram.com/')}
           src="src/Images/social (1).png"
           alt="Instagram"
@@ -28,8 +31,9 @@ function PiedePagina() {
           height={50}
         />
         <img
+          className="imagen-cliclable"
           onClick={() => handleClick('https://web.whatsapp.com/')}
-          src="src\Images\whatsapp.png"
+          src="src/Images/whatsapp.png"
           alt="WhatsApp"
           width={50}
           height={50}
@@ -40,4 +44,5 @@ function PiedePagina() {
 }
 
 export default PiedePagina;
+
 
