@@ -35,9 +35,22 @@
 .HowareWe{
   color: black;
 }
+.Titulo-quienes-somos{
+  color: rgb(69, 55, 55);
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.imagen-howarewe{
+  height: 100vh; /* Altura total del viewport */
+  background-image: url(src/Images/shaving-brush-4874621_1920.jpg);
+  opacity: 0.9;
+  background-position: center;
+}
 
 .fondo3{
   background: rgb(4, 4, 41);
+  border: 2px solid yellowgreen;
 }
 .boton-buscar{
   margin-left: -120px;
@@ -88,7 +101,7 @@
 }
 .Cambio-color-letra{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+  color: rgb(14, 13, 13);
 }
 .Form-perfumes {
   display: flex;
@@ -98,6 +111,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-bottom: 10px;
+  font-size: small;
 }
 
 .producto-imagen {
@@ -116,9 +130,31 @@
   border: none;
   padding: 8px 16px;
   cursor: pointer;
-  margin-top: 10px; /* Ajusta el margen superior del botón si es necesario */
+  margin-top: 10px;
 }
 
 .btn-eliminar:hover {
   background-color: darkred;
+}
+.Contacto{
+  max-width: 300px;/* Ancho máximo del formulario */
+  max-height: 500px;
+  margin: auto;/* Centrar horizontalmente */
+  padding: 20px;
+  border: 2px solid #fffdfd; 
+  border-radius: 5px; 
+  text-align: center; 
+  display: flex; 
+  flex-direction: column; 
+  height: 100vh; 
+}
+.Contacto input,
+.Contacto button{
+  
+    margin-bottom: 10px; 
+    padding: 10px;
+    border-radius: 3px; 
+    border: 2px solid #f6f3f3; 
+    width: 100%; 
+    box-sizing: border-box; /* Incluir el padding y border en el ancho total */
 }

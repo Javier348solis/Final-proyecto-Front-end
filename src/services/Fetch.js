@@ -1,4 +1,6 @@
 //Get
+
+//Se llama la API mediante una constante, el nombre de esta misma constante se estara llamando al resto del fetch en lugar de poner todo el localhost
 const apiUrl = "http://localhost:3001/"
 const getData = async (endpoint) => {
     try {
@@ -32,6 +34,7 @@ export {guardarUser}
 //Put
 export async function actualizaDatos(id, obj) {
   try {
+    //Se utiliza el ID para actualizar lo que este en la API
       const response = await fetch(`http://localhost:3001/productos/${id}`, {
           method: "PUT",
           headers: {
@@ -54,11 +57,11 @@ async function deleteProduct(id) {
         });
 
         if (!response.ok) {
+            //Este permite "Propagar" el error y que se maneje adecuadamente en otras partes del codigo
             throw new Error('Error al eliminar el producto');
         }
 
-        // Puedes manejar la respuesta aquí si necesitas hacer algo después de eliminar
-        // Por ejemplo, actualizar la interfaz después de eliminar el producto
+        
 
     } catch (error) {
         console.error('Error al intentar eliminar el producto:', error);

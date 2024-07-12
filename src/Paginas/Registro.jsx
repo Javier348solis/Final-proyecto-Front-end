@@ -31,7 +31,7 @@ const validaUsuario = async() => {
     const emailTrim = emailRef.current.value
     const passwordTrim = passwordRef.current.value
     if(!usernameTrim || !emailTrim || !passwordTrim){
-      alert("TOY VACIOOOO")
+      alert("Por favor, llene todos los espacios")
       return
     }else{
     const user = datos.find((usuario) => usuario.email === email);
