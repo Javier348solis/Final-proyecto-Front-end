@@ -10,7 +10,7 @@ function NavBar() {
     ruta('/Contacto') 
   }
   function Fragance() {
-    ruta('/PaginaHombres')
+    ruta('/PaginaHombre')
   }
  
   function Volver() {

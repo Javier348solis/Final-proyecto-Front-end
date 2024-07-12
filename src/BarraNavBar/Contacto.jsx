@@ -1,9 +1,10 @@
 import React from 'react'
+import NavBar from '../components/NavBar'
 
 function Contacto() {
   return (
     <>
-    
+    <NavBar/>
      <div className='Contacto'>
       <input type="text" placeholder='Nombre Completo'/>
       <input type="number" placeholder='Telefono Completo'/>
